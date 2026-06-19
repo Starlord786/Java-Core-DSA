@@ -1,3 +1,4 @@
+package DSA;
 
 class LinearSearch{
     public static void main(String[] a)
