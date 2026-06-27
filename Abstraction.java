@@ -2,19 +2,19 @@ abstract class Abstraction {
     abstract int getInterest();
 }
 
-class SBI extends Abstraction {
+class Kotak extends Abstraction {
     int getInterest() {
         return 7;
     }
 }
 
-class HDFC extends Abstraction {
+class Federal extends Abstraction {
     int getInterest() {
         return 8;
     }
 
     public static void main(String[] args) {
-        Abstraction b = new HDFC();
+        Abstraction b = new Federal();
         System.out.println(b.getInterest());
     }
 }
